@@ -3,8 +3,8 @@ import Coin from "./Coin";
 import { choice } from "./helpers";
 
 const defaultProps = {
-  coins: [{ src: "https://i5.walmartimages.com/asr/3850a9da-7ed7-4bbd-915a-3a8e38e0195a_1.83cc29729d27461002ccd2748d4a3a5f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF", side: "heads" },
-  { src: "https://m.media-amazon.com/images/I/51bcZy+HZpL._AC_SY580_.jpg", side: "tails" }]
+  coins: [{ src: "/coinHeads.jpg", side: "heads" },
+  { src: "/coinTails.png", side: "tails" }]
 };
 
 /** renders an image with two props
